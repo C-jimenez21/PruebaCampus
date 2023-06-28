@@ -1,0 +1,20 @@
+{
+    "name": "apolt01-022/prueba-campus",
+    "autoload": {
+        "psr-4": {
+            "App\\":[
+                "./scripts/db"            
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "C-jimenez21",
+            "email": "cristianjjc21@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "bramus/router": "~1.6"
+    }
+}
