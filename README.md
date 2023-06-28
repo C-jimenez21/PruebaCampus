@@ -18,7 +18,7 @@ Asegúrate de tener los siguientes requisitos antes de ejecutar la API:
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local o descárgalo como archivo ZIP. `git clone <https://github.com/C-jimenez21/PRUEBA-PHP>`
+1. Clona este repositorio en tu máquina local o descárgalo como archivo ZIP. `git clone <https://github.com/C-jimenez21/PruebaCampus>`
 2. Accede al directorio del proyecto. `cd nombre-del-proyecto`
 3. Instala las dependencias utilizando Composer. `composer install`
 4. Configuración de la base de datos.
