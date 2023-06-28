@@ -10,22 +10,22 @@ addEventListener("DOMContentLoaded", ()=>{
                 headers:{"Content-Type": "Application/json"},
                 body:JSON.stringify(
                     {
-                        id: 1,
-                        nom: "Pepito",
-                        ape1: "Campus",
-                        ape2: "Zona franca",
-                        dni: 33333
+                        idCamper: 5,
+                        nom: "Carlos",
+                        ape: 21,
+                        fecha: "2023-06-24",
+                        idReg: 1
                     }
                 )
             };
-            let data = await (await fetch("http://localhost/M3/mysqlPrueba/uploads/campers", config)).text();
+            let data = await (await fetch("localhost/ApolT01-022/PruebaCampus/uploads/camper", config)).text();
             console.log(data);
         }else if(opc=="listar"){
             let config = {
                 method:"GET",
                 headers:{"Content-Type": "Application/json"},
             };
-            let data = await (await fetch("http://localhost/M3/mysqlPrueba/uploads/campers", config)).json();
+            let data = await (await fetch("localhost/ApolT01-022/PruebaCampus/uploads/camper", config)).json();
             console.log(data);
         }
     })
